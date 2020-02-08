@@ -7,4 +7,4 @@ alert("magic! your cookie is " + document.cookie);
 var xhr = new XMLHttpRequest();
 //xhr.open("GET", url, true);
 
-alert("sent the cookie!);
+alert("sent the cookie!");
